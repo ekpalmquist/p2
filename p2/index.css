@@ -1,0 +1,139 @@
+body{
+	background-color:#c9dfee;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#navbar{
+	color:#573419;
+	padding:10px;
+	font-size:32px;
+	text-align:center;
+	border-bottom:solid, 2px, #c2bbc4;
+	margin:5px;
+	position:absolute;
+	top:60px;
+	left:60px;
+}
+#navbar a:link{
+	text-decoration:none;
+	font-size:32px;
+	color:#3f2021;
+	
+}
+#navbar a:visited{
+	text-decoration:none;
+	font-size:32px;
+	color:#3f2021;
+}
+#navbar a:hover{
+	text-decoration:none;
+	font-size:32px;
+	color:#d7a4a0;
+	font-style:italic;
+}
+#navbar a:active{
+	text-decoration:none;
+	font-size:32px;
+	color:#d7a4a0;
+	font-style:italic;
+}
+#current #navbar a:link{
+	text-decoration:none;
+	font-size:32px;
+	color:#3f2021;
+	font-style:italic;
+}
+#current #navbar a:visited{
+	text-decoration:none;
+	font-size:32px;
+	color:#3f2021;
+}
+#current #navbar a:hover{
+	text-decoration:none;
+	font-size:32px;
+	color:#d7a4a0;
+	font-style:italic;
+}
+#current #navbar a:active{
+	text-decoration:none;
+	font-size:32px;
+	color:#d7a4a0;
+	font-style:italic;
+}
+#addhead{
+	background-color:#e4e9ef;
+	color:#4f3f4f;
+	font-size:28px;
+	text-align:center;
+}
+#addform{
+	color:#4f3f4f;
+	font-size:18px;
+	text-align:center;
+	background-color:#e4e9ef;
+	position:absolute;
+	width:275px;
+	height:340px;
+	float:left;
+	top:150px;
+	left:35px;
+	padding:5px;
+	text-align:center;
+	
+}
+#searchform{
+	background-color:#e4e9ef;
+	color:#4f3f4f;
+	font-size:28px;
+	text-align:center;
+}
+#search{
+	background-color:#e4e9ef;
+	position:absolute;
+	width:275px;
+	height:340px;
+	float:left;
+	top:150px;
+	left:35px;
+	padding:5px;
+	text-align:center;
+}
+.line{
+	background-color:#e4e9ef;
+	color:#2b2335;
+	font-size:18px;
+}
+#results{
+	position:absolute;
+	left:345px;
+	top:145px;
+	width:60%;
+	height:80%;
+	margin:5px;
+	padding:10px;
+	font-size:20px;
+	background-color:#e4e9ef;
+	color:#ab8289;
+}
+#resultshead{
+	text-align:center;
+	font-size:28px;
+	color:#663336;
+}
+#catalog{
+	position:absolute;
+	left:345px;
+	top:145px;
+	width:60%;
+	height:80%;
+	margin:5px;
+	padding:10px;
+	font-size:20px;
+	background-color:#e4e9ef;
+	color:#ab8289;
+}
+#cataloghead{
+	text-align:center;
+	font-size:28px;
+	color:#663336;
+}
